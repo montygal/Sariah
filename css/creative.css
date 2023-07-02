@@ -47,8 +47,9 @@
     text-decoration: none;
     color: var(--font-body);
   }
-  .hero {
-    position: relative;
+  .computer {
+    display: flex;
+    justify-content: center;
   }
   .hero .logo {
     position: absolute;
