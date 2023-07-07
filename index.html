@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sariah Tanner | Home</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/creative.css" />
     <script type="module" src="./js/main.js"></script>
   </head>
@@ -11,10 +15,7 @@
     <header class="divider" id="header"></header>
     <main class="divider">
       <div class="computer">
-        <img
-          src="images/computer.jpg"
-          alt="image of tech"
-        />
+        <img src="images/computer.jpg" alt="image of tech" />
       </div>
       <section class="mission">
         <p>My riveting journey in the tech industry started 2 years ago!</p>
@@ -24,37 +25,38 @@
           trained to be a full stack developer.
         </p>
       </section>
-      <section class="products-categories">
-        <a href="./product-list/index.html?category=tents">
-          <img
-            src="images/resume.jpg"
-            alt="resume"
-          />
-          <p>Resume</p>
+      <section class="space">
+        <a href = "resume.html"><img src="images/resume.jpg" height="200" width="200" alt="resume"></a>
         </a>
-        <a href="./product-list/index.html?category=sleeping-bags">
-          <img
-          src="images/back.jpg"
-            alt="typing on a computer"
-          />
-          <p>Backend Development</p>
+        <a href = "backend.html"><img src="images/back.jpg" height="200" width="200" alt="backend skills"></a>
         </a>
-        <a href="./product-list/index.html?category=backpacks">
-          <img
-            src="images/front.jpg"
-            alt="picture of a computer"
-          />
-          <p>Frontend Development</p>
+        <a href="frontend.html">
+          <a href = "backend.html"><img src="images/computer.jpg" height="200" width="200" alt="picture of a computer"></a>
         </a>
-        <a href="./product-list/index.html?category=hammocks">
-          <img
-          src="images/blue.jpg"
-            alt="cross stitch of blue jays"
-          />
-          <p>Hobbies</p>
+        <a href = "resume.html"><img src="images/blue.jpg" height="200" width="200" alt="cross stitch of blue jays"></a>
         </a>
-      </section>
-    </main>
+        </section>
+        <section class="description">
+        <a href="resume.html">Resume</a>
+        <a href="backend.html">Backend Development</a>
+        <a href="frontend.html">Frontend Development</a>
+        <a href="hobbies.html">Hobbies</a>
+        </section>
+        <section class = "weather">
+          <h5>Current Weather In Ogden</h5>
+          <div class = "temp">
+              <p> <span id="temperature"></span> &deg;F</p>
+              <p> <span id ="currently"></span></span></p>
+              <div class ="temp2">
+                  <figure>
+                      <img src="" alt="" id="weathericon" />
+                      <figcaption></figcaption>
+                  </figure>
+              </div>
+          </div>
+        </section>
+        </main>
+        <script src="js/weather.js"></script>
     <footer id="footer"></footer>
   </body>
 </html>
