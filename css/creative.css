@@ -74,30 +74,21 @@ header {
 
 
 /*weather modifications*/
-.weather h2 {
-  display: flex;
-  justify-content: left;
-  flex-direction: column;
-}
 
-.weather {
+.weather{
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .temp {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: flex-start;
 }
 
-.temp2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
 
-/* utility classes */
+
+/* /* utility classes */
 .highlight {
   color: var(--tertiary-color);
 }
